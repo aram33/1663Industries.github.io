@@ -93,6 +93,11 @@ form button {
     text-align: center; /* Center the text */
 }
 
+.tenant img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
 .tenant h3 {
     margin-top: 0;
 }
@@ -101,15 +106,15 @@ form button {
 .project {
     background-color: #222;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
     border-radius: 5px;
     text-align: center;
+    max-width: 400px; /* Center the project section */
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+.project i {
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 .project h3 {

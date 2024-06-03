@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1663 Industries</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +19,6 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#code">Code</a></li>
             </ul>
         </nav>
     </header>
@@ -31,34 +31,29 @@
         <section id="tenants">
             <h2>Our Tenants</h2>
             <div class="tenant">
+                <img src="images/header_emblem.png" alt="Tenant 1 Logo">
                 <h3>Tenant 1</h3>
-                <p>Details about Tenant 1.</p>
+                <p>Delivers innovative solutions , seamlessly integrating with higher order system of systems.</p>
             </div>
             <div class="tenant">
+                <img src="images/header_emblem.png" alt="Tenant 2 Logo">
                 <h3>Tenant 2</h3>
-                <p>Details about Tenant 2.</p>
+                <p>Specialize in rapid deployment of products, ensuring smooth integration with current kill chains.</p>
             </div>
             <div class="tenant">
+                <img src="images/header_emblem.png" alt="Tenant 3 Logo">
                 <h3>Tenant 3</h3>
-                <p>Details about Tenant 3.</p>
+                <p>Provide thorough, operator-focused documentation.</p>
             </div>
         </section>
         <section id="projects">
             <h2>Our Projects</h2>
             <div class="project">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
-            </div>
-            <div class="project">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
-            </div>
-            <div class="project">
-                <img src="images/project3.jpg" alt="Project 3">
-                <h3>Project 3</h3>
-                <p>Description of Project 3.</p>
+                <a href="latest_object.html" target="_blank">
+                    <i class="fas fa-satellite-dish fa-3x"></i>
+                    <h3>Latest Space Object</h3>
+                    <p>Click to view the latest object in the catalog.</p>
+                </a>
             </div>
         </section>
         <section id="contact">
@@ -76,31 +71,6 @@
         <section id="about">
             <h2>About Us</h2>
             <p>Information about 1663 Industries.</p>
-        </section>
-        <section id="code">
-            <h2>Python Code Example</h2>
-            <pre><code>
-import requests
-import configparser
-import json
-from datetime import datetime
-
-def fetch_latest_object():
-    # Read credentials from config file
-    config = configparser.ConfigParser()
-    config.read('config.ini')
-
-    username = config['credentials']['username']
-    password = config['credentials']['password']
-
-    if not username or not password:
-        print('Username or password not set in config file')
-        return
-
-    # URL for authentication and data request
-    login_url = 'https://www.space-track.org/ajaxauth/login'
-    data_url = 'https://www.space-track.org/basicspacedata/query/class/gp/
-            </code></pre>
         </section>
     </main>
     <footer>

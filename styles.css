@@ -96,3 +96,22 @@ form button {
 .tenant h3 {
     margin-top: 0;
 }
+
+/* New CSS for Projects Section */
+.project {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
